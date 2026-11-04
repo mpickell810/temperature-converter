@@ -15,6 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "prepublishOnly": "npm run lint && npm test",
     "lint": "semistandard *.js",
     "test": "node test.js"
   },
